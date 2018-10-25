@@ -16,6 +16,7 @@ nav ul {
 nav ul > li {
 	flex: 1;
 	height: 3rem;
+	padding: 2rem;
 }
 
 
