@@ -1,3 +1,7 @@
 .wrapper {
-display: grid
+	display: grid
+}
+
+nav ul {
+	display: flex;
 }
