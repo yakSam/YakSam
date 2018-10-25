@@ -4,6 +4,10 @@
 	grid-auto-rows: 200px;
 }
 
+nav {
+	grid-row-start: 2;
+}
+
 nav ul {
 	display: flex;
 }
