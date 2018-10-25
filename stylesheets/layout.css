@@ -22,6 +22,7 @@ nav ul > li {
 
 section {
 	grid-row-start: 3;
+	padding: 2rem;
 }
 
 footer {
