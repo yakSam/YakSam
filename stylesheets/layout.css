@@ -12,7 +12,7 @@ nav ul {
 	display: flex;
 }
 
-nav ul li {
+nav ul > li {
 	flex: 1;
 }
 
