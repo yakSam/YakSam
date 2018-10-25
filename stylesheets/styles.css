@@ -26,7 +26,10 @@ nav li a {
 
 nav li:hover {
 	/*opacity: 1;*/
-	transition: background-color 2s ease;
+	transition: all 2s ease;
 	border-bottom: 2px solid #FF4E32;
+	border-top: 1px solid #ededed;
+	border-left: 1px solid #ededed;
+	border-right: 1px solid #ededed;
 	background-color: #fafbfc;
 }
