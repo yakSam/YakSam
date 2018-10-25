@@ -4,7 +4,10 @@ ul, li {
 	list-style-type: none;
 }
 
-
+a {
+	text-decoration: none;
+	color: black;
+}
 
 nav li {
 	/*background: -moz-linear-gradient(top, rgba(247,235,133,0.2) 0%, rgba(247,232,131,0.2) 2%, rgba(252,136,81,0.2) 63%, rgba(255,78,50,0.5) 100%); /* FF3.6-15 */*/
@@ -16,6 +19,8 @@ nav li {
 
 nav li a {
 	font-size: 2rem;
+	background-color: #fafbfc;
+	
 }
 
 nav li:hover {
