@@ -15,11 +15,12 @@ nav li {
 /*background: linear-gradient(to bottom, rgba(247,235,133,0.2) 0%,rgba(247,232,131,0.2) 2%,rgba(252,136,81,0.2) 63%,rgba(255,78,50,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33f7eb85', endColorstr='#80ff4e32',GradientType=0 ); /* IE6-9 */*/
 	/*opacity: 0;*/
+	padding: 2rem;
 }
 
 nav li a {
 	font-size: 2rem;
-	background-color: #fafbfc;
+	
 	
 }
 
@@ -27,4 +28,5 @@ nav li:hover {
 	/*opacity: 1;
 	transition: opacity 2s ease;*/
 	border-bottom: 2px solid #FF4E32;
+	background-color: #fafbfc;
 }
