@@ -20,7 +20,7 @@ nav ul > li {
 }
 
 
-section {
+main {
 	grid-row-start: 3;
 	grid-column: 1/4;
 	display: flex;
