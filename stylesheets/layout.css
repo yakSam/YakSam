@@ -20,7 +20,10 @@ nav ul > li {
 }
 
 h2 + p {
+	display: flex;
 	padding: 2rem;
+	flex-direction: column;
+	justify-content: flex-end;
 }
 
 
