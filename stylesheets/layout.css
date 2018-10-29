@@ -30,6 +30,7 @@ main {
 
 article.homeContent {
 	flex-direction: column;
+	flex-flow: column wrap;
 }
 
 footer {
