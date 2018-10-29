@@ -24,7 +24,12 @@ main {
 	grid-row-start: 3;
 	grid-column: 1/4;
 	display: flex;
+	flex-direction: row;
 	padding: 2rem;
+}
+
+article.homeContent {
+	flex-direction: column;
 }
 
 footer {
