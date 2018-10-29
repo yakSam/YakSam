@@ -19,6 +19,10 @@ nav ul > li {
 	padding: 2rem;
 }
 
+h2 + p {
+	padding: 2rem;
+}
+
 
 main {
 	grid-row-start: 3;
@@ -29,7 +33,7 @@ main {
 }
 
 article.homeContent {
-	flex-direction: column;
+	display: flex;
 	flex-flow: column wrap;
 }
 
