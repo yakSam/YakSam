@@ -4,6 +4,10 @@
 	grid-auto-rows: minmax(100px, auto);
 }
 
+h1 {
+	display: inline-block;
+}
+
 nav {
 	grid-row-start: 2;
 	grid-column: 1/6;
