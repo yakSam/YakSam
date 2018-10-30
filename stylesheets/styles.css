@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Proza+Libre:800|Rubik|Taviraj:600');
 
+h1 {
+	border-top: 5px solid red;
+	border-bottom: 5px solid red;
+}
+
 h2 {
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 700;
@@ -22,9 +27,7 @@ a {
 }
 
 a.home {
-	text-transform: uppercase;
-	border-top: 5px solid red;
-	border-bottom: 5px solid red;
+	text-transform: uppercase;	
 }
 
 p {
