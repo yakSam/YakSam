@@ -19,6 +19,11 @@ nav ul > li {
 	padding: 2rem;
 }
 
+navigation a {
+	display: block;
+	text-align: centre;
+}
+
 h2 + p {
 	display: flex;
 	padding: 0 2rem;
@@ -38,6 +43,7 @@ main {
 article.homeContent {
 	display: flex;
 	flex-flow: column wrap;
+	flex-basis: 33.33%;
 }
 
 footer {
