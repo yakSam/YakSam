@@ -31,7 +31,7 @@ a.home {
 }
 
 a.home:hover:after {
-	content: "the quick way home
+	content: "the quick way home";
 }
 
 p {
