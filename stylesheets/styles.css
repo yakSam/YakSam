@@ -32,6 +32,8 @@ a.home {
 
 a.home:hover:after {
 	content: "the quick way home";
+	border: none;
+	font-size: 1rem;
 }
 
 p {
