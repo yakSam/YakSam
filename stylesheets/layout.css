@@ -15,6 +15,7 @@ nav ul {
 
 nav ul > li {
 	flex: 1;
+	flex-direction: column;
 	height: 3rem;
 	padding: 2rem;
 }
@@ -48,4 +49,12 @@ article.homeContent {
 
 footer {
 	grid-row-start: 4;
+}
+
+@media screen and (min-width: 760px) {
+	{
+	nav ul > li {
+		flex-direction: row;
+		}
+
 }
