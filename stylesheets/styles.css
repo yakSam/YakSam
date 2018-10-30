@@ -30,6 +30,10 @@ a.home {
 	text-transform: uppercase;	
 }
 
+a.home:hover:after {
+	content: "the quick way home
+}
+
 p {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
