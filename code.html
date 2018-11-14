@@ -26,17 +26,17 @@
 		</ul>
 	  </nav>
       <main>
+<script>
+$(document).ready(function(){
+const Url='https://www.googleapis.com/youtube/v3/search?key=AIzaSyBt-GgMdhwNNqDEn8yKJku0TFOD56-cSac&channelId=UCz22l7kbce-uFJAoaZqxD1A&part=snippet,id&order=date&maxResults=20';
 
-	  <!--<script>
-
-$.getJSON("https://www.googleapis.com/youtube/v3/search?key=AIzaSyBt-GgMdhwNNqDEn8yKJku0TFOD56-cSac&channelId=UCz22l7kbce-uFJAoaZqxD1A&part=snippet,id&order=date&maxResults=20", function(data){
-for (var i = 0, len = data.length; i < len; i++) {
-console.log(data[i]);
+$('.btn').click(function(){
+	$.getJSON(Url, function(result){
+		console.log(result)
+	});
+})
 }
-});
-
-
-</script>-->
+</script>
 
 <button class="btn">
 Go
