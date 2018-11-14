@@ -34,7 +34,7 @@ var showData = $('#show-data');
 	$.getJSON(Url, function(result){
 		console.log(result)
 		
-		var items = data.items.map(function (item) {
+		var items = result.items.map(function (item) {
 		return item.key + ': ' + item.value;
 		});
 		
