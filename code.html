@@ -30,9 +30,9 @@
 const Url='https://www.googleapis.com/youtube/v3/search?key=AIzaSyBt-GgMdhwNNqDEn8yKJku0TFOD56-cSac&channelId=UCz22l7kbce-uFJAoaZqxD1A&part=snippet,id&order=date&maxResults=20';
 
 $('.btn').click(function(){
-$.getJSON({Url, function(result){
-console.log(result)
-});
+	$.getJSON(Url, function(result){
+		console.log(result)
+	});
 })
 </script>
 
