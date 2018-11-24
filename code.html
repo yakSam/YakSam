@@ -33,7 +33,7 @@ var title
 var description
 $.getJSON(url,
 	function(response){
-	title = response.data.items[0].title;
+	title = response.items.snippet[0].title;
 	description = response.data.items[0].description;
 });
 });
