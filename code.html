@@ -34,7 +34,7 @@ var showData = $('#show-data');
 	$.getJSON(Url, function(result){
 		console.log(result)
 		
-		var items = result.items.map(function (item) {
+		var showData = result.items.map(function (item) {
 		return items.title + ': ' + id.videoId;
 		});
 		
