@@ -28,26 +28,11 @@
       <main>
 <script>
 $(document).ready(function(){
-const Url='https://www.googleapis.com/youtube/v3/search?key=AIzaSyBt-GgMdhwNNqDEn8yKJku0TFOD56-cSac&channelId=UCz22l7kbce-uFJAoaZqxD1A&part=snippet&order=date&maxResults=20';
-$('.btn').click(function(){
-var showData = $('#show-data');
-	$.getJSON(Url, function(result){
-		console.log(result)
-		
-		var items = result.items.map(function (item) {
-		return showData.title + ': ' + id.videoId;
-		});
-		
-		showData.empty();
-		
-		if (items.length) {
-		var content = '<li>' + items.join('</li><li>') + '</li>';
-		var list = $('<ul />').html(content);
-		showData.append(list);
-		}
-	});
-	showData.text('loading');
-});
+var Url='https://www.googleapis.com/youtube/v3/search?key=AIzaSyBt-GgMdhwNNqDEn8yKJku0TFOD56-cSac&channelId=UCz22l7kbce-uFJAoaZqxD1A&part=snippet&order=date&maxResults=20';
+var title
+var description
+
+$.getJSON
 });
 </script>
 
