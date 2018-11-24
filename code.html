@@ -33,6 +33,9 @@ var title
 var description
 
 $.getJSON
+	function(response){
+	title = response.data.items[0].title;
+	description = response.data.items[0].description;
 });
 </script>
 
