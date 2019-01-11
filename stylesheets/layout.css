@@ -25,7 +25,8 @@ nav ul {
 nav ul > li {
 	flex: 1;
 	height: 3rem;
-	padding: 2rem;
+	padding: 1rem;
+	text-align: center;
 }
 
 navigation a {
@@ -68,4 +69,9 @@ footer {
 	nav ul {
 		flex-direction: row;
 		}
+		
+	nav ul > li {
+		padding: 2rem;
+		text-align: left;
+	}
 }
