@@ -68,7 +68,7 @@ nav li a {
 }
 
 nav li:hover {
-	transition: all 2s ease;
+	transition: all 1s ease;
 	border-bottom: 2px solid #FF4E32;
 	box-shadow: 0 -5px 10px rgb(255, 78, 50, 0.1);
 	background: #ffffff; /* Old browsers */
