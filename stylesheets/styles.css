@@ -75,7 +75,7 @@ nav li:hover {
 	border-left: 1px solid #ededed;
 	border-right: 1px solid #ededed;
 	background: #ededed; /* Old browsers */
-	background: linear-gradient(to bottom, #ededed 0%,#fafbfc 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: linear-gradient(to bottom, #ededed 0%,#fafbfc 33%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	}
 
 @media screen and (min-width: 760px) {
