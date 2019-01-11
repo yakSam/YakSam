@@ -64,7 +64,7 @@ nav li {
 }
 
 nav li a {
-	font-size: 2rem;	
+	font-size: 1.5rem;	
 }
 
 nav li:hover {
@@ -75,4 +75,10 @@ nav li:hover {
 	border-left: 1px solid #ededed;
 	border-right: 1px solid #ededed;
 	background-color: #fafbfc;
+}
+
+@media screen and (min-width: 760px) {
+	nav li a {
+		font-size: 2rem;	
+	}
 }
