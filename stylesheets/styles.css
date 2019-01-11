@@ -68,14 +68,10 @@ nav li a {
 }
 
 nav li:hover {
-	/*opacity: 1;*/
 	transition: all 2s ease;
 	border-bottom: 2px solid #FF4E32;
-	border-top: 1px solid #ededed;
-	border-left: 1px solid #ededed;
-	border-right: 1px solid #ededed;
-	background: #ededed; /* Old browsers */
-	background: linear-gradient(to bottom, #ededed 0%,#fafbfc 33%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	box-shadow: 0 -5px 10px rgb(255, 78, 50, 0.1);
+	background: #ffffff; /* Old browsers */
 	}
 
 @media screen and (min-width: 760px) {
