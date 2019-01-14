@@ -39,7 +39,6 @@ navigation a {
 
 h2 + span {
 	display: flex;
-	padding: 0 2rem;
 	align-items: center;
 }
 
