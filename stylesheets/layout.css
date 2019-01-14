@@ -53,9 +53,8 @@ main {
 }
 
 article.homeContent {
-	display: flex;
-	flex-flow: column wrap;
-	flex-basis: 33.33%;
+	display: grid;
+
 }
 
 footer {
