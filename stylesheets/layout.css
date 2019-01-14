@@ -59,6 +59,10 @@ footer {
 		margin-left: 2rem;
 		padding: 1rem;
 	}
+	
+	h2 {
+		margin-left: 2rem;
+	}
 
 	nav {
 		grid-row-start: 2;
