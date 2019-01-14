@@ -76,6 +76,10 @@ footer {
 		margin: 0 0.25rem;
 	}
 	
+	h2 + span {
+		margin: 0 auto;
+	}
+	
 	main {
 		grid-row-start: 3;
 		display: grid;
