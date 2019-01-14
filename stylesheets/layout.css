@@ -85,7 +85,6 @@ footer {
 	
 	main {
 		grid-row-start: 3;
-		padding: 2rem;
 		flex-direction: row;
 	}
 }
