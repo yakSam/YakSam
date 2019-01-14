@@ -53,10 +53,6 @@ main {
 	flex-direction: column;	
 }
 
-article.homeContent {
-	display: grid;
-
-}
 
 footer {
 	grid-row-start: 4;
