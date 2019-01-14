@@ -37,11 +37,10 @@ navigation a {
 	text-align: centre;
 }
 
-h2 + p {
+h2 + span {
 	display: flex;
 	padding: 0 2rem;
-	flex-direction: column;
-	justify-content: flex-end;
+	align-items: center;
 }
 
 
