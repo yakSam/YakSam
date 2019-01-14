@@ -42,7 +42,7 @@ p {
 	font-weight: 400;
 }
 
-h2 + p {
+h2 + span {
 	font-family: 'Taviraj', sans-serif;
 	font-size: 1.5rem;
 	font-weight: 600;
