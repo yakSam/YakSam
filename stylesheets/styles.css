@@ -59,9 +59,17 @@ nav li:hover {
 	background: #ffffff; /* Old browsers */
 	}
 	
-nav li:focus {
-	outline: 1px dotted red;
+nav li a:focus:nth-of-type(1) {
+	outline: 1px dotted rgba(255, 78, 50);
 }	
+
+nav li a:focus:nth-of-type(2) {
+	outline: 1px dotted rgba(246, 204, 85);
+}
+
+nav li a:focus:nth-of-type(3) {
+	outline: 1px dotted rgba(9, 198, 58);
+}
 	
 nav li:hover:nth-of-type(1) {
 	border-bottom: 2px solid rgba(255, 78, 50);
