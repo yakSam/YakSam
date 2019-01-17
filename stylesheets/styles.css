@@ -28,9 +28,9 @@ a.home {
 }
 
 a.home:hover:after {
-	position: absolute;
 	content: "the quick way home";
 	border: none;
+	box-shadow: 0 -5px 10px rgba(60, 40, 249);
 	font-size: 1rem;
 	text-transform: none;
 }
