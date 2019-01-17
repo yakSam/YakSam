@@ -63,6 +63,11 @@ nav li:hover:nth-of-type(1) {
 	border-bottom: 2px solid rgba(255, 78, 50);
 	box-shadow: 0 -5px 10px rgba(255, 78, 50, 0.1);
 	}
+	
+nav li:hover:nth-of-type(2) {
+	border-bottom: 2px solid rgba(246, 204, 85);
+	box-shadow: 0 -5px 10px rgba(246, 204, 85, 0.1);
+	}	
 
 @media screen and (min-width: 760px) {
 	nav li a {
