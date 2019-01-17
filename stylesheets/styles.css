@@ -60,7 +60,7 @@ nav li:hover {
 	}
 	
 nav li:focus {
-	outline: 1px red;
+	outline: 1px dotted red;
 }	
 	
 nav li:hover:nth-of-type(1) {
