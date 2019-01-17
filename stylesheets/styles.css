@@ -56,15 +56,15 @@ nav li a:hover {
 	background: #ffffff; /* Old browsers */
 	}
 	
-nav li:focus:nth-of-type (1) a {
+nav li:focus:nth-of-type(1) a {
 	outline: 1px dotted rgba(255, 78, 50);
 	}	
 
-nav li:focus:nth-of-type (2) a {
+nav li:focus:nth-of-type(2) a {
 	outline: 1px dotted rgba(246, 204, 85);
 	}
 
-nav li:focus:nth-of-type (3) a {
+nav li:focus:nth-of-type(3) a {
 	outline: 1px dotted rgba(9, 198, 58);
 	}
 	
@@ -78,7 +78,7 @@ nav li:hover:nth-of-type(2) a {
 	box-shadow: 0 -5px 10px rgba(246, 204, 85, 0.1);
 	}	
 	
-nav li:hover:nth-of-type (3) a {
+nav li:hover:nth-of-type(3) a {
 	border-bottom: 2px solid rgba(9, 198, 58);
 	box-shadow: 0 -5px 10px rgba(9, 198, 58, 0.1);
 	}	
