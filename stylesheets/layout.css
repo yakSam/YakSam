@@ -31,14 +31,12 @@ nav ul {
 }
 
 nav ul > li {
-	flex: 1;
-	height: 3rem;
-	padding: 1rem;
-	text-align: center;
+	flex: 1;	
 }
 
 nav a {
 	display: block;
+	padding: 1rem;
 }
 
 h2 + span {
@@ -78,9 +76,8 @@ footer {
 		flex-direction: row;
 		}
 		
-	nav ul > li {
+	nav ul > li a {
 		padding: 2rem;
-		text-align: left;
 		margin: 0 0.25rem;
 	}
 	
