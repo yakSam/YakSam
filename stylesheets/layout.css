@@ -19,6 +19,11 @@ h2 {
 	margin: 0;
 }
 
+a.home:hover:after {
+	position: absolute;
+	margin-left: 2rem;
+}
+
 nav {
 	grid-row-start: 1;
 	grid-column: 2/6;
