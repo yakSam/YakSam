@@ -98,11 +98,21 @@ footer {
 	}
 	
 	/*code page styles*/
+	#cssTests {
+		grid-row-start: 2;
+	}
+	
+	#cssTests ul { 
+		display: flex;
+		flex-direction: row;
+	}
+	
 	#cssTests a {
 		position: relative
 		padding: 1rem 0 0.5rem;
 		margin: 0 1.5rem;
 		color: green;
 		text-transform: uppercase;
+		flex: 1;
 	}
 }
