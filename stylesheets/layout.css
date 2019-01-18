@@ -108,12 +108,15 @@ footer {
 		flex-direction: row;
 	}
 	
+	#cssTests ul > li {
+		flex: 1;
+	}
+	
 	#cssTests a {
 		position: relative;
 		padding: 1rem 0 0.5rem;
 		margin: 0 1.5rem;
 		color: green;
 		text-transform: uppercase;
-		flex: 1;
 	}
 }
