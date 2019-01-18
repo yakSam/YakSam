@@ -96,4 +96,13 @@ footer {
 		grid-template-columns: repeat(5, 1fr);
 		flex-direction: column;	
 	}
+	
+	/*code page styles*/
+	#cssTests a {
+		position: relative
+		padding: 1rem 0 0.5rem;
+		margin: 0 1.5rem;
+		color: green;
+		text-transform: uppercase;
+	}
 }
