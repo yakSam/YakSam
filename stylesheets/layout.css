@@ -108,7 +108,7 @@ footer {
 	}
 	
 	#cssTests a {
-		position: relative
+		position: relative;
 		padding: 1rem 0 0.5rem;
 		margin: 0 1.5rem;
 		color: green;
