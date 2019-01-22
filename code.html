@@ -33,7 +33,7 @@ var title
 var description
 $.getJSON(url,
 	function(response){
-	title = json.snippet.title;
+	title = response.snippet.title;
 	//description = response.data.items[0].description;
 	console.log(response)
 	console.log(title)
