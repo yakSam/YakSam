@@ -34,9 +34,9 @@ var description
 $.getJSON(url,
 	function(response){
 	title = response.items[0].snippet.title;
-	//description = response.data.items[0].description;
-	console.log(response)
+	description = response.items[0].snippet.description;
 	console.log(title)
+	console.log(description)
 });
 });
 </script>
