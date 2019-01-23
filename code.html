@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yaksam.GitHub.io by yakSam</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="javascripts/GetYouTubePlayList.js"
     <link rel="stylesheet" href="stylesheets/layout.css">
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
@@ -26,20 +27,7 @@
 		</ul>
 	  </nav>
       <main>
-<script>
-$(document).ready(function(){
-var url='https://www.googleapis.com/youtube/v3/search?key=AIzaSyBt-GgMdhwNNqDEn8yKJku0TFOD56-cSac&channelId=UCz22l7kbce-uFJAoaZqxD1A&part=snippet&order=date&maxResults=20';
-var title
-var description
-$.getJSON(url,
-	function(response){
-	title = response.items[0].snippet.title;
-	description = response.items[0].snippet.description;
-	console.log(title)
-	console.log(description)
-});
-});
-</script>
+
 
 <button class="btn">
 Go
