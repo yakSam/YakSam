@@ -20,5 +20,6 @@ $.getJSON(url,
 	//console.log(title)
 	//console.log(description)
 			});
+		});
 	});
 });
