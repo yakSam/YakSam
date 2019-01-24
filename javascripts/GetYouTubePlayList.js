@@ -4,9 +4,16 @@ var title
 var description
 $.getJSON(url,
 	function(response){
-	title = response.items[0].snippet.title;
+		var output = '';
+		$.each(response.items.snippet, function(key,value) {
+			output += '<li>' + value.title + '</li>';
+		});
+		$('#example').html(output);
+		
+		
+	/*title = response.items[0].snippet.title;
 	description = response.items[0].snippet.description;
 	console.log(title)
-	console.log(description)
-});
+	console.log(description)*/ 
+	});
 });
