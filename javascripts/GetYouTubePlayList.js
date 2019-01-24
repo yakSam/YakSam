@@ -12,8 +12,8 @@ $.getJSON(url,
 		//$('#show-data').html(output);
 		
 		
-	title = response.items[0].snippet.title;
-	description = response.items[0].snippet.description;
+	title = response.items.snippet.title;
+	description = response.items.snippet.description;
 	console.log(title)
 	console.log(description)
 	});
