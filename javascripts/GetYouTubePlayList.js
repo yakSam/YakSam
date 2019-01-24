@@ -8,7 +8,7 @@ $.getJSON(url,
 		$.each(response.items.snippet, function(key,value) {
 			output += '<li>' + value.title + '</li>';
 		});
-		$('#example').html(output);
+		$('#show-data').html(output);
 		
 		
 	/*title = response.items[0].snippet.title;
