@@ -7,7 +7,7 @@ $.getJSON(url,
 		//var output = '';
 		//$.each(response.items.snippet, function(key,value) {
 		//$.each(response.snippet, function(key,value) {
-			output += '<li>' + value.title + '</li>';
+		//	output += '<li>' + value.title + '</li>';
 		//});
 		//$('#show-data').html(output);
 		
