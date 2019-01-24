@@ -4,17 +4,17 @@ var title
 var description
 $.getJSON(url,
 	function(response){
-		var output = '';
+		//var output = '';
 		//$.each(response.items.snippet, function(key,value) {
-		$.each(response.snippet, function(key,value) {
+		//$.each(response.snippet, function(key,value) {
 			output += '<li>' + value.title + '</li>';
-		});
-		$('#show-data').html(output);
+		//});
+		//$('#show-data').html(output);
 		
 		
-	/*title = response.items[0].snippet.title;
+	title = response.items[0].snippet.title;
 	description = response.items[0].snippet.description;
 	console.log(title)
-	console.log(description)*/ 
+	console.log(description)
 	});
 });
