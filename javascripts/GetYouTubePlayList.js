@@ -5,7 +5,8 @@ var description
 $.getJSON(url,
 	function(response){
 		var output = '';
-		$.each(response.items.snippet, function(key,value) {
+		//$.each(response.items.snippet, function(key,value) {
+		$.each(response.snippet, function(key,value) {
 			output += '<li>' + value.title + '</li>';
 		});
 		$('#show-data').html(output);
