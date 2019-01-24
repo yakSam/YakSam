@@ -15,7 +15,7 @@ $.getJSON(url,
 			$value.tasks, function(i, j){
 var title = this.title;
 var description = this.title;
-			});		
+			}		
 	//title = response.items.snippet.title;
 	//description = response.items.snippet.description;
 	//console.log(title)
