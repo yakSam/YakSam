@@ -12,7 +12,7 @@ $.getJSON(url,
 		//$('#show-data').html(output);
 		
 		$.each(response.items, function(key, value){ //first level
-			$.each(value.snippet, function(key, value) {
+			$.each(items.snippet, function(key, value) {
 				console.log(value.title)
 		
 	//title = response.items.snippet.title;
