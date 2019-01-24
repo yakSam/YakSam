@@ -11,10 +11,13 @@ $.getJSON(url,
 		//});
 		//$('#show-data').html(output);
 		
+		$.each(obj.response.items, function(key, value){ //first level
+			$.each(value.snippet, function(key, value) {
+				console.log(value.title)
 		
-	title = response.items.snippet.title;
-	description = response.items.snippet.description;
-	console.log(title)
-	console.log(description)
+	//title = response.items.snippet.title;
+	//description = response.items.snippet.description;
+	//console.log(title)
+	//console.log(description)
 	});
 });
