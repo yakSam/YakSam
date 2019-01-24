@@ -19,5 +19,6 @@ $.getJSON(url,
 	//description = response.items.snippet.description;
 	//console.log(title)
 	//console.log(description)
+			});
 	});
 });
