@@ -11,8 +11,8 @@ $.getJSON(url,
 		//});
 		//$('#show-data').html(output);
 		
-		$.each(response.snippet, function(key, value){ //first level
-
+		$.each(response.items.snippet, function(key, value){ //first level
+var title = this.title;
 		
 	//title = response.items.snippet.title;
 	//description = response.items.snippet.description;
