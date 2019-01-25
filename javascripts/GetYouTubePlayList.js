@@ -13,8 +13,8 @@ $.getJSON(url,
 		
 		$.each(response.items, function(key, value){ //first level
 		
-			$.each(value.snippet, {
-var title = value.snippet.title;
+			$.each(value.snippet, fuction(index, element) {
+var title = element.title;
 var description = j.title;
 			});		
 	//title = response.items.snippet.title;
