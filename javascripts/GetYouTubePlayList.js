@@ -11,10 +11,10 @@ $.getJSON(url,
 		//});
 		//$('#show-data').html(output);
 		
-		$.each(response.items, function(keysdfds, valuesdfdfs){ //first level
+		$.each(response.items, function(key, value){ //first level
 		
-			$.each(value.snippet.title, function(i, j){
-var title = j.title;
+			$.each(value.snippet, {
+var title = value.snippet.title;
 var description = j.title;
 			});		
 	//title = response.items.snippet.title;
