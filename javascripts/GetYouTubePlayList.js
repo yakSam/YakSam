@@ -12,10 +12,10 @@ $.getJSON(url,
 		//$('#show-data').html(output);
 		
 		$.each(response.items, function(key, value){ //first level
-		var me = this;
+		
 			$.each(value.snippet, function(i, j){
-			var title = this.title;
-			var description = this.title;
+var title = j.title;
+var description = j.title;
 			});		
 	//title = response.items.snippet.title;
 	//description = response.items.snippet.description;
