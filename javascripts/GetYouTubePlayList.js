@@ -13,7 +13,7 @@ $.getJSON(url,
 		
 		$.each(response.items, function(key, value){ //first level
 		
-		var test = value.snippet;
+		var test = $.each(value.snippet, function(a, b) {;
 		
 			$.each(test.title, function(i, j){
 				
@@ -23,4 +23,5 @@ $.getJSON(url,
 			});		
 			});
 		});
+	});
 	});
