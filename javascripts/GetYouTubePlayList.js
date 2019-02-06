@@ -15,7 +15,7 @@ $.getJSON(url,
 			
 			console.log(value.snippet.title);
 			//var title = jQuery.toArray(value.snippet.title);
-			$('#show-data p').text(value.snippet.title);
+			$('#show-data p').each(value.snippet.title);
 
 			});
 		});
