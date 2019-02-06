@@ -10,8 +10,8 @@ $.getJSON(url,
 			console.log(value.snippet.title);
 			//var title = jQuery.toArray(value.snippet.title);
 			//$('#show-data p').text(value.snippet.title);
-			$('#show-data').append('<h3>'value.snippet.title</h3>);	
-			$('#show-data').append('<p>'value.snippet.description</p>);	
+			$('#show-data').append('<h3>' + value.snippet.title + '</h3>');	
+			$('#show-data').append('<p>' + value.snippet.description + '</p>');	
 			});
 		});
 	});
