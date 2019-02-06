@@ -11,10 +11,10 @@ $.getJSON(url,
 		//});
 		//$('#show-data').html(output);
 		
-		$.each(response.items, function(key, value){ //first level
+		$.each(response.items.snippet, function(key, value){ //first level
 		
-			//$.each(value.snippet, function(i, j){
-var title = items.title;
+			$.each(value.snippet, function(i, j){
+var title = j.title;
 var description = j.title;
 			});		
 	//title = response.items.snippet.title;
@@ -23,4 +23,4 @@ var description = j.title;
 	//console.log(description)
 			});
 		});
-//	});
+	});
