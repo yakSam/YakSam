@@ -19,10 +19,6 @@ $.getJSON(url,
 //var title = j.title;
 //var description = j.title;
 			});		
-	//title = response.items.snippet.title;
-	//description = response.items.snippet.description;
-	//console.log(title)
-	//console.log(description)
 			});
 		});
 	});
