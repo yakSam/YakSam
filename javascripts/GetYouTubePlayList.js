@@ -4,18 +4,12 @@ var title
 var description
 $.getJSON(url,
 	function(response){
-		//var output = '';
-		//$.each(response.items.snippet, function(key,value) {
-		//$.each(response.snippet, function(key,value) {
-		//	output += '<li>' + value.title + '</li>';
-		//});
-		//$('#show-data').html(output);
 		
 		$.each(response.items, function(key, value){ //first level
 			
 			console.log(value.snippet.title);
 			//var title = jQuery.toArray(value.snippet.title);
-			$('#show-data p').each(value.snippet.title);
+			//$('#show-data p').text(value.snippet.title);
 
 			});
 		});
