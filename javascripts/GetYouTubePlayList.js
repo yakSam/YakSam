@@ -15,7 +15,7 @@ $.getJSON(url,
 		
 		var test = value.snippet;
 		
-			$.each(value.snippet, function(i, j){
+			$.each(test.title, function(i, j){
 var title = j.title;
 var description = j.title;
 			});		
