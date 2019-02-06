@@ -13,15 +13,13 @@ $.getJSON(url,
 		
 		$.each(response.items, function(key, value){ //first level
 		
-		var test = $.each(value.snippet, function(a, b) {;
+
 		
-			$.each(test.title, function(i, j){
-				
-				console.log(j);
+			$.each(value.snippet, function(i, j){
 //var title = j.title;
 //var description = j.title;
 			});		
+
 			});
 		});
-	});
 	});
