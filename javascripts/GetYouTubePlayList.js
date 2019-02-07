@@ -12,7 +12,7 @@ $.getJSON(url,
 			//$('#show-data p').text(value.snippet.title);
 			$('#show-data').append('<h3>' + value.snippet.title + '</h3>');	
 			$('#show-data').append('<p>' + value.snippet.description + '</p>');	
-			$('#show-data').append('<iframe type="text/html" src="https://www.youtube.com/embed' + value.id.videoID + 'autoplay=0"></iframe>');
+			$('#show-data').append('<iframe type="text/html" src="https://www.youtube.com/embed' + value.id.videoId + 'autoplay=0"></iframe>');
 			});
 		});
 	});
