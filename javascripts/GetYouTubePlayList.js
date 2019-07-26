@@ -8,15 +8,6 @@ $.getJSON(url,
 	function(response){
 		
 		$.each(response.items, function(key, value){ //first level
-<<<<<<< HEAD
-
-			console.log(value.snippet.title);
-			//var title = jQuery.toArray(value.snippet.title);
-			//$('#show-data p').text(value.snippet.title);
-			$('#show-data').append('<h3>' + value.snippet.title + '</h3>');	
-			$('#show-data').append('<p>' + value.snippet.description + '</p>');	
-			$('#show-data').append('<iframe type="text/html" src="https://www.youtube.com/embed/' + value.id.videoId + '?autoplay=0"></iframe>');
-=======
 		
 			$.each(value, function(i, j){
 var title = j.title;
@@ -26,10 +17,8 @@ var description = j.title;
 	//description = response.items.snippet.description;
 	//console.log(title)
 	//console.log(description)
->>>>>>> parent of f9165b6... Update GetYouTubePlayList.js
 			});
 
-dasasdasdasdasdasdasd
 
 		});
 	});
