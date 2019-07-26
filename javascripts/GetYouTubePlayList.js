@@ -7,7 +7,7 @@ var description
 $.getJSON(url,
 	function(response){
 		
-		$.each(response.items, function(key, value){ //first level
+		$.each(response.items.snippet, function(key, value){ //first level
 		
 			$.each(value, function(i, j){
 var title = j.title;
