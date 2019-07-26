@@ -12,9 +12,14 @@ $.getJSON(url,
 			console.log(value.snippet.title);
 			//var title = jQuery.toArray(value.snippet.title);
 			//$('#show-data p').text(value.snippet.title);
+<<<<<<< HEAD
 			$('#show-data').append('<h3>' + value.snippet.title + '</h3>');	
 			$('#show-data').append('<p>' + value.snippet.description + '</p>');	
 			$('#show-data').append('<iframe type="text/html" src="https://www.youtube.com/embed/' + value.id.videoId + '?autoplay=0"></iframe>');
+=======
+			$('#show-data').append('<h3>'value.snippet.title</h3>);	
+			$('#show-data').append('<p>'value.snippet.description</p>);	
+>>>>>>> parent of 01cb4ff... Update GetYouTubePlayList.js
 			});
 		});
 	});
