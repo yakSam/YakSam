@@ -1,5 +1,5 @@
 $(document).ready(function(){
-var form = $(document).getElementById('selectChannel');
+var form = $(doc).getElementById('selectChannel');
 
 var url='https://www.googleapis.com/youtube/v3/search?key=AIzaSyBt-GgMdhwNNqDEn8yKJku0TFOD56-cSac&channelId=UC_EUMYOQE5X76O0WghEMh4Q&part=snippet&order=date&maxResults=20';
 var title
@@ -18,3 +18,4 @@ $.getJSON(url,
 			});
 		});
 	});
+
