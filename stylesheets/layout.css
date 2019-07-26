@@ -98,9 +98,16 @@ footer {
 	}
 	
 	/*code page styles*/
-	#cssTests, #youTubeApi {
-		grid-row-start: 2;
+	#cssTests, #youTubeApi {		
 		grid-column: 1/4;
+	}
+
+	#youTubeApi {
+		grid-row-start: 1;
+	}
+
+	#cssTests {
+		grid-row-start: 2;
 	}
 	
 	#cssTests ul { 
