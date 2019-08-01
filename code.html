@@ -29,6 +29,7 @@
 		</ul>
 	  </nav>
       <main>
+<<<<<<< HEAD
 			<section id="youTubeApi">
 				<h2>Get Videos from a YouTube playlist using an API call</h2>
 				<form id="selectChannel" action="javascripts/GetYouTubePlayList.js" method="post">
@@ -40,6 +41,29 @@
 				<button class="btn">Go</button>
 				
 			
+=======
+<script>
+$(document).ready(function(){
+var url='https://www.googleapis.com/youtube/v3/search?key=AIzaSyBt-GgMdhwNNqDEn8yKJku0TFOD56-cSac&channelId=UCz22l7kbce-uFJAoaZqxD1A&part=snippet&order=date&maxResults=20';
+var title
+var description
+$.getJSON(url,
+	function(response){
+	title = response.items[0].snippet.title;
+	//description = response.data.items[0].description;
+	console.log(response)
+	console.log(title)
+});
+});
+</script>
+
+<button class="btn">
+Go
+</button>
+
+		<div id="show-data">
+		</div>
+>>>>>>> parent of c8c3e6b... Update code.html
 
 				<div id="show-data">
 		
