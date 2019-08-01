@@ -7,7 +7,7 @@ $.getJSON(url,
 		
 		$.each(response.items, function(key, value){ //first level
 			
-			console.log(response.items);
+			console.log(form);
 			//var title = jQuery.toArray(value.snippet.title);
 			//$('#show-data p').text(value.snippet.title);
 			$('#show-data').append('<h3>' + value.snippet.title + '</h3>');	
