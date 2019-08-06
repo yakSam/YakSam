@@ -2,6 +2,7 @@ $(document).ready(function(){
 var url='https://www.googleapis.com/youtube/v3/search?key=AIzaSyBt-GgMdhwNNqDEn8yKJku0TFOD56-cSac&channelId=UCz22l7kbce-uFJAoaZqxD1A&part=snippet&order=date&maxResults=20';
 var form = $('selectChannel');
 var id = $('#channelName').val();
+console.log(id);
 
 $.getJSON(url,
 	function(response){
@@ -18,4 +19,4 @@ $.getJSON(url,
 		});
 	});
 
-console.log(id);
+
