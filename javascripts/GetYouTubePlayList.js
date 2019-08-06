@@ -18,3 +18,4 @@ $.getJSON(url,
 		});
 	});
 
+console.log(id);
