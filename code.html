@@ -30,13 +30,35 @@
 
 			<section id="youTubeApi">
 				<h2>Get Videos from a YouTube playlist using an API call</h2>
-				<form id="selectChannel" action="javascripts/GetYouTubePlayList.js" method="post">
+				<form id="selectChannel" action="/">
 				<select name="Channel name" id="channelName">
 					<option value="UC_EUMYOQE5X76O0WghEMh4Q">ASX</option>
 					<option value="UCvQECJukTDE2i6aCoMnS-Vg">Big Think</option>
 				</select>
 				<input type="submit" value="go">
 				</form>
+				
+				<div id="result"></div>
+				
+				<script>
+				$("#selectChannel").submit(function(event) {
+				
+				event.preventDefalt();
+				
+				var $form = $(this),
+				term = $form.find('select[name="Channel name"]').val(),
+				url = $form.attr('action');
+				
+				var posting = $.post(url, {
+					s:term 
+				});
+				
+				posting.done(function(data) {
+				var content = $(data).find('#content');
+				$("result").empty().append(content)O;
+				});
+				});
+				</script>
 				
 		<div id="show-data">
 		
