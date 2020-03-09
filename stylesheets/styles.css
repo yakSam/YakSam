@@ -87,7 +87,7 @@ nav li:hover:nth-of-type(3) a {
 	box-shadow: 0 -5px 10px rgba(9, 198, 58, 0.1);
 	}
 
-.video-stream.html5-main-video {
+#show-data iframe {
 
     width: 600px !important;
     height: 300px !important;
