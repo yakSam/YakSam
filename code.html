@@ -13,6 +13,33 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+	  <script>
+		  var tag = document.createElement('script');
+tag.src = "//www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+		  function onYouTubeIframeAPIReady() {
+    var $ = jQuery;
+    var players = [];
+    $('iframe').filter(function(){return this.src.indexOf('http://www.youtube.com/') == 0}).each( function (k, v) {
+        if (!this.id) { this.id='embeddedvideoiframe' + k }
+        players.push(new YT.Player(this.id, {
+            events: {
+                'onStateChange': function(event) {
+                    if (event.data == YT.PlayerState.PLAYING) {
+                        $.each(players, function(k, v) {
+                            if (this.getIframe().id != event.target.getIframe().id) {
+                                this.pauseVideo();
+                            }
+                        });
+                    }
+                }
+            }
+        }))
+    });
+}
+	  </script>
   </head>
  <body class="code">
     <div class="wrapper">
@@ -63,6 +90,7 @@
 		<div id="show-data">
 		
 	</div>
+				<p>This project is using YouTube API services, <a href="https://policies.google.com/privacy?hl=en-US">Please see Google's Privacy Policy</a> and the <a href="https://www.youtube.com/static?template=terms&gl=AU">YouTube terms of service</a></p>.
 </section>
 			<section id="cssTests">
 			<h2>CSS animation on hover</h2>
@@ -72,6 +100,7 @@
 				<li><a href="form.html">form</a></li>
 			</ul>
 			</section>
+	      
       </main>
 	  
       <footer>
