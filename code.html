@@ -46,7 +46,7 @@
 				event.preventDefalt();
 				
 				var $form = $(this),
-				term = $form.find('select[name="Channel name"]').val(),
+				term = $form.find('select[id="channelName"]').val(),
 				url = $form.attr('action');
 				
 				var posting = $.post(url, {
